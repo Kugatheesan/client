@@ -33,7 +33,10 @@ export default function BookPage() {
       setToastMessage('Booking successfull');
       setToastType('success');
       setShowToast(true);
-      setTimeout(() => setShowToast(false), 3000);
+     setTimeout(() => {
+  setShowToast(false); 
+  navigate('/');  
+}, 2000);
     } 
     catch (err) {
       setToastMessage('Booking failed ');

@@ -5,7 +5,6 @@ export default function AdminDashboard() {
   const [tab, setTab] = useState('add');
   const [events, setEvents] = useState([]);
   const [bookings, setBookings] = useState([]);
-
   const token = localStorage.getItem('token');
 
   const [formData, setFormData] = useState({
