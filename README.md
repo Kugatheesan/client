@@ -1,14 +1,14 @@
-🚀 Event Booking Task – Frontend
+# 🚀 Event Booking Task – Frontend
 
 This is the frontend part of the Event Booking Web Application built using React.js.
 It allows users to view events and book seats online.
 
-⚙️ Tech Stack
+## ⚙️ Tech Stack
 React.js
 Tailwind CSS
 REST APIs
 
-📦 Getting Started
+## 📦 Getting Started
 
 ### Prerequisites
 - Node.js and npm installed
